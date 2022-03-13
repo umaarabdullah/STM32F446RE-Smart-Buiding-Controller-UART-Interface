@@ -27,7 +27,7 @@ The computer terminal program must send the initial configuration to the MCU, an
 
 The above initial configuration command instruct controller to set and store the initial configuration unless otherwise changed. To change the configuration to the light bulbs or any other devices, the command sample is as follows: Initial configuration must be sent to the MCU from your computer and will be stored to a variable known as ‘config’
 
-#### Config temp 27
+### Config temp 27
 
 The temperature set to 27oC. Similarly, for light blub
 
