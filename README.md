@@ -1,4 +1,4 @@
-# STM32F446Re_USART_lab2
+# STM32F446Re_USART_Baremetal
 
 A tribute to Juice Wrld. 
 999 Forever <3.
