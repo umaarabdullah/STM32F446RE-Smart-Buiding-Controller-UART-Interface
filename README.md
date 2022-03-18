@@ -21,40 +21,40 @@ Here we have three inputs (Jumper cables or switches), one of the inputs indicat
 
 ## Control Command – Design
 
-The computer terminal program must send the initial configuration to the MCU, and the MCU controller program will store it to a variable known as ‘config.’ You must use the USART interrupt in the MCU to send or receive any configuration. (Using Interrupt handler)
+The computer terminal program must send the initial configuration to the MCU, and the MCU controller program will store it to a variable known as ‘config.’ You must use the USART interrupt in the MCU to send or receive any configuration. (Using Interrupt handler). Each command MUST have a (.) dot at the end !!
 
-### Config Init temp 25 water 50 hum 45 light 1111
+### Config Init temp 25 water 50 hum 45 light 1111.
 
 The above initial configuration command instruct controller to set and store the initial configuration unless otherwise changed. To change the configuration to the light bulbs or any other devices, the command sample is as follows: Initial configuration must be sent to the MCU from your computer and will be stored to a variable known as ‘config’
 
-### Config temp 27
+### Config temp 27.
 
 The temperature set to 27oC. Similarly, for light blub
 
-### Config light 1010
+### Config light 1010.
 
 Living (PA9) and Office (PA7) rooms lights will respond for the day and night. 
 
 To read the current configuration
 use the following command from the terminal program:
 
-### Read Config
+### Read Config.
 
 For all configuration. 
 To read the current configuration of the light bulb use the following command
 
-### Read Config light
+### Read Config light.
 
 To read the current configuration of the temperature use the following command
 
-### Read Config temp
+### Read Config temp.
 
 To read the current configuration of the humidity use the following command
 
-### Read Config hum
+### Read Config hum.
 
 To read the current configuration of the water level use the following command
 
-### Read Config water
+### Read Config water.
 
 References : STM32F446Re Datasheet, Reference Manual STM32F446Re, UM1724 User manual.
