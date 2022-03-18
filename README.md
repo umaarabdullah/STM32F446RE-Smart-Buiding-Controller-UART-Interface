@@ -33,13 +33,28 @@ The temperature set to 27oC. Similarly, for light blub
 
 ### Config light 1010
 
-Living and Office rooms lights will respond for the day and night. To read the current configuration
+Living (PA9) and Office (PA7) rooms lights will respond for the day and night. 
+
+To read the current configuration
 use the following command from the terminal program:
 
 ### Read Config
 
-For all configuration. To read the current configuration of the light bulb use the following command
+For all configuration. 
+To read the current configuration of the light bulb use the following command
 
 ### Read Config light
+
+To read the current configuration of the temperature use the following command
+
+### Read Config temp
+
+To read the current configuration of the humidity use the following command
+
+### Read Config hum
+
+To read the current configuration of the water level use the following command
+
+### Read Config water
 
 References : STM32F446Re Datasheet, Reference Manual STM32F446Re, UM1724 User manual.
