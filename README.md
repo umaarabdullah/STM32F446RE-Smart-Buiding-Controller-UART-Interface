@@ -57,4 +57,4 @@ To read the current configuration of the water level use the following command
 
 ### Read Config water.
 
-References : STM32F446Re Datasheet, Reference Manual STM32F446Re, UM1724 User manual.
+## References : STM32F446Re Datasheet, Reference Manual STM32F446Re, UM1724 User manual.
