@@ -1,8 +1,5 @@
 # STM32F446Re_USART_Baremetal
 
-A tribute to Juice Wrld. 
-999 Forever <3.
-
 ## About the project.
 
 A building Controller using STM32 USART and GPIO for Building/Apartment Light, Temperature, Water Supply, and Humidity Control.
